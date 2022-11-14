@@ -1,0 +1,64 @@
+/* 
+        h1{
+            color: blue;
+    }
+    .H{
+        color: aquamarine;
+    }
+    .e{color: chartreuse;
+
+    }
+    .ll{color: yellow;}
+    .l{color: brown;}
+    .o{color: chocolate;} */
+    
+/*     
+body{
+    background-color: rgb(191, 146, 233);
+
+}
+
+h1{
+    font-size: 30px;
+    color: blue;
+}
+@media  (max-width: 800px){
+body{
+    background-color: tomato;
+}
+
+
+h1{font-size: medium;
+    color: chartreuse;}
+@media  (max-width: 600px){
+    body{
+        background-color: rgb(71, 181, 255);
+    }
+
+    h1{
+        font-size: x-large;
+        color: chocolate;
+    
+@media  (max-width: 400px){
+    body{
+        background-color: rgb(71, 255, 129);
+    } */
+
+
+/* } */
+.continor{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+ grid-template-rows:repeat(3,200px);
+ grid-gap: 5px;
+}
+.box{
+    background-color:tomato ;
+    text-align: center;
+}
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
